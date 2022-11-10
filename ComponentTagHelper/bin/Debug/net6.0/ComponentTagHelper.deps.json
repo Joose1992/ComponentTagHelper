@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ComponentTagHelper/1.0.0": {
+        "dependencies": {
+          "CommonMark.NET": "0.15.1",
+          "TechGems.RazorComponentTagHelpers": "1.0.1"
+        },
+        "runtime": {
+          "ComponentTagHelper.dll": {}
+        }
+      },
+      "CommonMark.NET/0.15.1": {
+        "runtime": {
+          "lib/netstandard1.0/CommonMark.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
+        }
+      },
+      "TechGems.RazorComponentTagHelpers/1.0.1": {
+        "runtime": {
+          "lib/net6.0/TechGems.RazorComponentTagHelpers.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ComponentTagHelper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommonMark.NET/0.15.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xgAvZ0tNcupiabTcOOvNYRzU7h9dZ28xIFh/CHiNgCI6GUu/ME2hmZP3abLgRFrnXyNBfVxfL4ZNmqkRnBSLEg==",
+      "path": "commonmark.net/0.15.1",
+      "hashPath": "commonmark.net.0.15.1.nupkg.sha512"
+    },
+    "TechGems.RazorComponentTagHelpers/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x0oEfsvgy899L/xel08K2xuedP0oFy7c0MvhUtvPK1yDMqm/T7sMFO7lTFfPCobxi0BMoN4/7I7I2Y6/oSnxgA==",
+      "path": "techgems.razorcomponenttaghelpers/1.0.1",
+      "hashPath": "techgems.razorcomponenttaghelpers.1.0.1.nupkg.sha512"
+    }
+  }
+}

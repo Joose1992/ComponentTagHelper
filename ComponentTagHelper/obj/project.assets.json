@@ -1,0 +1,159 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "CommonMark.NET/0.15.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/CommonMark.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.0/CommonMark.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "TechGems.RazorComponentTagHelpers/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/TechGems.RazorComponentTagHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/TechGems.RazorComponentTagHelpers.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "CommonMark.NET/0.15.1": {
+      "sha512": "xgAvZ0tNcupiabTcOOvNYRzU7h9dZ28xIFh/CHiNgCI6GUu/ME2hmZP3abLgRFrnXyNBfVxfL4ZNmqkRnBSLEg==",
+      "type": "package",
+      "path": "commonmark.net/0.15.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "commonmark.net.0.15.1.nupkg.sha512",
+        "commonmark.net.nuspec",
+        "lib/net20/CommonMark.dll",
+        "lib/net20/CommonMark.pdb",
+        "lib/net20/CommonMark.xml",
+        "lib/net35-client/CommonMark.dll",
+        "lib/net35-client/CommonMark.pdb",
+        "lib/net35-client/CommonMark.xml",
+        "lib/net40-client/CommonMark.dll",
+        "lib/net40-client/CommonMark.pdb",
+        "lib/net40-client/CommonMark.xml",
+        "lib/net45/CommonMark.dll",
+        "lib/net45/CommonMark.pdb",
+        "lib/net45/CommonMark.xml",
+        "lib/netstandard1.0/CommonMark.dll",
+        "lib/netstandard1.0/CommonMark.pdb",
+        "lib/netstandard1.0/CommonMark.xml",
+        "lib/portable-net40+sl50+wp80+win+wpa81+MonoAndroid10+MonoTouch10/CommonMark.dll",
+        "lib/portable-net40+sl50+wp80+win+wpa81+MonoAndroid10+MonoTouch10/CommonMark.pdb",
+        "lib/portable-net40+sl50+wp80+win+wpa81+MonoAndroid10+MonoTouch10/CommonMark.xml",
+        "lib/portable-net45+wp80+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/CommonMark.dll",
+        "lib/portable-net45+wp80+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/CommonMark.pdb",
+        "lib/portable-net45+wp80+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/CommonMark.xml",
+        "tools/cmark.exe",
+        "tools/cmark.exe.config"
+      ]
+    },
+    "TechGems.RazorComponentTagHelpers/1.0.1": {
+      "sha512": "x0oEfsvgy899L/xel08K2xuedP0oFy7c0MvhUtvPK1yDMqm/T7sMFO7lTFfPCobxi0BMoN4/7I7I2Y6/oSnxgA==",
+      "type": "package",
+      "path": "techgems.razorcomponenttaghelpers/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/TechGems.RazorComponentTagHelpers.dll",
+        "techgems.razorcomponenttaghelpers.1.0.1.nupkg.sha512",
+        "techgems.razorcomponenttaghelpers.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "CommonMark.NET >= 0.15.1",
+      "TechGems.RazorComponentTagHelpers >= 1.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\josem\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\josem\\source\\repos\\ComponentTagHelper\\ComponentTagHelper\\ComponentTagHelper.csproj",
+      "projectName": "ComponentTagHelper",
+      "projectPath": "C:\\Users\\josem\\source\\repos\\ComponentTagHelper\\ComponentTagHelper\\ComponentTagHelper.csproj",
+      "packagesPath": "C:\\Users\\josem\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\josem\\source\\repos\\ComponentTagHelper\\ComponentTagHelper\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\josem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "CommonMark.NET": {
+            "target": "Package",
+            "version": "[0.15.1, )"
+          },
+          "TechGems.RazorComponentTagHelpers": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

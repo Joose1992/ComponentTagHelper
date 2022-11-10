@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "K0SjJe0Jc3Uq78rdpQwCgjj80KNIQ8TjpsYkQWyvB2BLJMOu/4kI9Zx4EqpmJpLL/XrXvqDW2iMTXP+j/P3Z2Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\josem\\source\\repos\\ComponentTagHelper\\ComponentTagHelper\\ComponentTagHelper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\josem\\.nuget\\packages\\commonmark.net\\0.15.1\\commonmark.net.0.15.1.nupkg.sha512",
+    "C:\\Users\\josem\\.nuget\\packages\\techgems.razorcomponenttaghelpers\\1.0.1\\techgems.razorcomponenttaghelpers.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
